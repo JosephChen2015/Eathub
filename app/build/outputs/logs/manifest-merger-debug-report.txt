@@ -1,0 +1,192 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.algolia.instantsearch:voice:1.0.0-beta02] /Users/razr/.gradle/caches/transforms-2/files-2.1/b69d775182ebe0fcddac43c477a38c5f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8803bfd31396676d363988d258afe009/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d7ac1d9f0c779f359161c58aca53c14e/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/razr/.gradle/caches/transforms-2/files-2.1/c931a52021d8182a8242347565216989/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/182bd8d2d363a705908cfb451b4e3158/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/40b601651120558368848a213929d47d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e87dea76c182083a6ec3f16102228be2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/13380cd63b80f6f0aa4ab253c006754d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e9592eda0e1688c85a7d12e185dcbcc4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/a0fc8f2331e404243a44bdf4ec46f98b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bf796bde330deea130dadeb927a9e58d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/21a369bd67ec832ea8d327a4cad92f4d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/564bd0bbd28e7736594928b10122af8d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/99a870dae36cfc17ea8f5eeac3cd35be/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/94d7292da547f3ba18b55f3c08330661/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0d83baf4f691a26cd90eb71787244a28/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/f018c9bc0e4ec68a6b7e63f7715a5afe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8c67012a36fcf63042842aacae685345/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0ad4b173d654032db55968a0c6c7cc2a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/26e2d3ad5a98d9f37d42a74e9e16b912/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/700b3237ec0c8285c400600b869780ce/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/848eaacef23ef64dc8c57cef12dc0cc3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/571892016e5d121c68c8dd6f0f37979c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/becf02ae0ad9ab10f04d9ae5fe00c95b/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/fddbc96fe29ddad5e7ccd852ba0742cf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/33bef749c810fe84477c06e3ed50869c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/754b0fb39f3eee99758e1181fb154672/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8fe0684a7d86f6c12b38b00f04febcbe/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/2c23117d4aec314d64a3977b955f3adb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0edb862c0abd2438322c56d5bc9b8aa0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/38d9623e390ef1fdcb3ce08673562178/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0f223cee7806bafe741023510dbe7f23/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bc28c299973bd22dbadb07dfc2ceedc6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d85672c3a1a79d5b065b396e0199df22/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:3:11-39
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:22:5-20
+MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:11:5-15:19
+MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/razr/.gradle/caches/transforms-2/files-2.1/c931a52021d8182a8242347565216989/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/razr/.gradle/caches/transforms-2/files-2.1/c931a52021d8182a8242347565216989/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/becf02ae0ad9ab10f04d9ae5fe00c95b/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/becf02ae0ad9ab10f04d9ae5fe00c95b/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:11:13-44
+activity#com.example.eathub.MainActivity
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:12:9-22:20
+	android:label
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:14:17-49
+	android:theme
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:15:17-60
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:13:17-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:18:17-68
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+MERGED from [com.algolia.instantsearch:voice:1.0.0-beta02] /Users/razr/.gradle/caches/transforms-2/files-2.1/b69d775182ebe0fcddac43c477a38c5f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.algolia.instantsearch:voice:1.0.0-beta02] /Users/razr/.gradle/caches/transforms-2/files-2.1/b69d775182ebe0fcddac43c477a38c5f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:20:5-44
+MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8803bfd31396676d363988d258afe009/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8803bfd31396676d363988d258afe009/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d7ac1d9f0c779f359161c58aca53c14e/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d7ac1d9f0c779f359161c58aca53c14e/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/razr/.gradle/caches/transforms-2/files-2.1/c931a52021d8182a8242347565216989/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/razr/.gradle/caches/transforms-2/files-2.1/c931a52021d8182a8242347565216989/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/182bd8d2d363a705908cfb451b4e3158/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/182bd8d2d363a705908cfb451b4e3158/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/40b601651120558368848a213929d47d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/40b601651120558368848a213929d47d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e87dea76c182083a6ec3f16102228be2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e87dea76c182083a6ec3f16102228be2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/13380cd63b80f6f0aa4ab253c006754d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/13380cd63b80f6f0aa4ab253c006754d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e9592eda0e1688c85a7d12e185dcbcc4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/e9592eda0e1688c85a7d12e185dcbcc4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/a0fc8f2331e404243a44bdf4ec46f98b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/a0fc8f2331e404243a44bdf4ec46f98b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bf796bde330deea130dadeb927a9e58d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bf796bde330deea130dadeb927a9e58d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/21a369bd67ec832ea8d327a4cad92f4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/21a369bd67ec832ea8d327a4cad92f4d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/564bd0bbd28e7736594928b10122af8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/564bd0bbd28e7736594928b10122af8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/99a870dae36cfc17ea8f5eeac3cd35be/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/99a870dae36cfc17ea8f5eeac3cd35be/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/94d7292da547f3ba18b55f3c08330661/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/94d7292da547f3ba18b55f3c08330661/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0d83baf4f691a26cd90eb71787244a28/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0d83baf4f691a26cd90eb71787244a28/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/f018c9bc0e4ec68a6b7e63f7715a5afe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/f018c9bc0e4ec68a6b7e63f7715a5afe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8c67012a36fcf63042842aacae685345/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8c67012a36fcf63042842aacae685345/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0ad4b173d654032db55968a0c6c7cc2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0ad4b173d654032db55968a0c6c7cc2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/26e2d3ad5a98d9f37d42a74e9e16b912/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/26e2d3ad5a98d9f37d42a74e9e16b912/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/700b3237ec0c8285c400600b869780ce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/700b3237ec0c8285c400600b869780ce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d62fd941f1ebd902c06e091fa3df73e2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/848eaacef23ef64dc8c57cef12dc0cc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/848eaacef23ef64dc8c57cef12dc0cc3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/571892016e5d121c68c8dd6f0f37979c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/571892016e5d121c68c8dd6f0f37979c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/becf02ae0ad9ab10f04d9ae5fe00c95b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/becf02ae0ad9ab10f04d9ae5fe00c95b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/fddbc96fe29ddad5e7ccd852ba0742cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/fddbc96fe29ddad5e7ccd852ba0742cf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/33bef749c810fe84477c06e3ed50869c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/33bef749c810fe84477c06e3ed50869c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/754b0fb39f3eee99758e1181fb154672/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/754b0fb39f3eee99758e1181fb154672/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8fe0684a7d86f6c12b38b00f04febcbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8fe0684a7d86f6c12b38b00f04febcbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/2c23117d4aec314d64a3977b955f3adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/2c23117d4aec314d64a3977b955f3adb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0edb862c0abd2438322c56d5bc9b8aa0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0edb862c0abd2438322c56d5bc9b8aa0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/38d9623e390ef1fdcb3ce08673562178/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/38d9623e390ef1fdcb3ce08673562178/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0f223cee7806bafe741023510dbe7f23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0f223cee7806bafe741023510dbe7f23/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bc28c299973bd22dbadb07dfc2ceedc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bc28c299973bd22dbadb07dfc2ceedc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d85672c3a1a79d5b065b396e0199df22/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d85672c3a1a79d5b065b396e0199df22/AndroidManifest.xml:20:5-44
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
