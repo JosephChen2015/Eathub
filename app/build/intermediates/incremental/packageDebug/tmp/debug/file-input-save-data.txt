@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Sep 19 23:18:52 AEST 2019
+#Mon Oct 21 22:57:26 AEDT 2019
 1.base=/Users/razr/Desktop/EatHub/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

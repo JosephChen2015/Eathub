@@ -8,10 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu
 import android.view.View
 import android.view.MenuItem
-//import com.andtinder.model.CardModel
 
 import kotlinx.android.synthetic.main.activity_main.*
-//import com.andtinder.view.SimpleCardStackAdapter
 //import android.R
 import com.kidach1.tinderswipe.model.CardModel
 import com.kidach1.tinderswipe.view.SimpleCardStackAdapter
@@ -33,9 +31,21 @@ import com.algolia.instantsearch.voice.ui.Voice.showPermissionRationale
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.content_main.*
+import android.graphics.Bitmap
+import android.util.Log
+import android.widget.Button
+import android.widget.TextView
+import androidx.core.view.isVisible
+import androidx.fragment.app.FragmentActivity
+import com.google.gson.Gson
+import java.io.ByteArrayOutputStream
+import java.net.URL
+import com.loopj.android.http.*
+import java.io.IOException
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.uiThread
 
 
-//import com.andtinder.view.CardContainer
 
 
 
@@ -43,16 +53,11 @@ import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener,VoiceSpeechRecognizer.ResultsListener{
 
-    private val imgs = Arrays.asList(
-        "http://img.peco-japan.com/image/93127",
-        "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmZfrA31MKjExHzG83ycVshteNDg5hUAoGZ30HzTu9so_PjXnftQ",
-        "https://pbs.twimg.com/profile_images/3129300560/9c13c196eaa4f1940641f2cf08878727.jpeg",
-        "https://pbs.twimg.com/profile_images/581025665727655936/9CnwZZ6j.jpg"
-    )
     private enum class Tag {
         Permission,
         Voice
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -60,13 +65,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,VoiceSpeechRecogn
 
         val btn = findViewById<FloatingActionButton>(R.id.microphone)
         val btn2 = findViewById<FloatingActionButton>(R.id.camera)
+        val refreshText = findViewById<TextView>(R.id.textView)
+
         btn.setOnClickListener(this)
         btn2.setOnClickListener(this)
+        refreshText.setOnClickListener(this)
 
         val mainLayout = findViewById<androidx.constraintlayout.widget.ConstraintLayout>(R.id.linearLayout)
         mainLayout.setBackgroundColor(Color.parseColor("#2F4F4F"))
 
-        val cardAdapter = SimpleCardStackAdapter(this)
+
         if (Build.VERSION.SDK_INT >= 21) {
             val decorView:View = window.decorView
             val option = SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN or SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -74,16 +82,31 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,VoiceSpeechRecogn
             window.statusBarColor = Color.TRANSPARENT
         }
 
+        val cardAdapter = SimpleCardStackAdapter(this)
+        val cardContainer = findViewById<CardContainer>(R.id.cardContainer)
 
-        for (i in 0..7) {
-            val cardModel = CardModel("Dish Name", "Description for card.", imgs[i % 4])
-//            addClickListener(cardModel)
-//            addDissmissListener(cardModel)
-            cardAdapter.add(cardModel)
+        doAsync{
+            var url:String = "https://api.edamam.com/search?q=chicken&app_id=\$f199cde3&app_key=\$08b6bfc892c17d28fa620fa36621cf33 -&from=0&to=8&"
+            val request:RecipeData = Request(url).request()
+            uiThread {
+
+                for (i in 0..7) {
+
+                    val recipe = request.hits[i].recipe
+                    val cardModel = CardModel(recipe.label, recipe.dietLabels[0], recipe.image)
+                    addClickListener(cardModel)
+                    addDissmissListener(cardModel)
+                    cardAdapter.add(cardModel)
+                }
+
+                cardContainer.adapter = cardAdapter
+
+//                cardContainer.bringToFront()
+            }
         }
 
-        val cardContainer = findViewById<CardContainer>(R.id.cardContainer)
-        cardContainer.adapter = cardAdapter
+
+
     }
 
     override fun onClick(v: View?) {
@@ -98,16 +121,52 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,VoiceSpeechRecogn
             R.id.camera -> {
                 println("camera")
                 val takePhotoIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+
+                val bitmap = takePhotoIntent.getParcelableExtra("BitmapImage") as Bitmap
+                val stream = ByteArrayOutputStream()
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
+//                val image = stream.toByteArray()
+
                 if (takePhotoIntent.resolveActivity(packageManager) != null) {
                     startActivityForResult(takePhotoIntent, 1)
                 }
             }
-            R.id.voicePermission -> {
-                println("hahaha")
+
+            R.id.textView -> {
+                refreshAct()
             }
 
         }
     }
+
+    private fun refreshAct() {
+        this.recreate()
+    }
+
+
+    private fun addClickListener(cardModel: CardModel) {
+        cardModel.onClickListener = object : CardModel.OnClickListener {
+            override fun OnClickListener() {
+                val intent = Intent()
+                intent.setClass(this@MainActivity, RecipeActivity::class.java)
+//                startActivity(intent)
+
+            }
+        }
+    }
+
+    private fun addDissmissListener(cardModel: CardModel) {
+        cardModel.onCardDismissedListener = object : CardModel.OnCardDismissedListener {
+            override fun onLike(callback: CardContainer.OnLikeListener) {
+//                refreshAct()
+            }
+
+            override fun onDislike() {
+//                refreshAct()
+            }
+        }
+    }
+
 
     override fun onResults(possibleTexts: Array<out String>) {
         val voiceText = possibleTexts.firstOrNull()?.capitalize()
@@ -124,6 +183,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,VoiceSpeechRecogn
 //            }
 //        }
 //    }
+
+
 
     private fun showVoiceDialog() {
         getPermissionDialog()?.dismiss()

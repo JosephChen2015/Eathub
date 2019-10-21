@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
 MERGED from [com.algolia.instantsearch:voice:1.0.0-beta02] /Users/razr/.gradle/caches/transforms-2/files-2.1/b69d775182ebe0fcddac43c477a38c5f/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:17:1-24:12
 MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:2:1-17:12
@@ -41,25 +41,29 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/razr/.gradle/caches/tr
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/0f223cee7806bafe741023510dbe7f23/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/bc28c299973bd22dbadb07dfc2ceedc6/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/d85672c3a1a79d5b065b396e0199df22/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:3:11-39
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
-		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:1-36:12
 		INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:5:5-34:19
 MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /Users/razr/.gradle/caches/transforms-2/files-2.1/8e442e33edc658d26089cff5fbecb52a/AndroidManifest.xml:22:5-20
 MERGED from [com.kidach1:AndroidTinderSwipe:1.0.7] /Users/razr/.gradle/caches/transforms-2/files-2.1/4901bdbef84ccf28900ffea88675ebd6/AndroidManifest.xml:11:5-15:19
@@ -102,6 +106,24 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:20:17-76
 	android:name
 		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.eathub.RecipeActivity
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:23:9-33:20
+	android:label
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:25:17-49
+	android:theme
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:26:17-60
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:24:17-47
+intent-filter#action:name:android.intent.action.RECIPE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.RECIPE
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:29:17-70
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:29:25-68
+category#android.intent.category.DEFAULT
+ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:31:17-75
+	android:name
+		ADDED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml:31:27-73
 uses-sdk
 INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/razr/Desktop/EatHub/app/src/main/AndroidManifest.xml
