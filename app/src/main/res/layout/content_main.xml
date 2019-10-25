@@ -10,20 +10,6 @@
         tools:context=".MainActivity">
 
 
-    <com.kidach1.tinderswipe.view.CardContainer
-            android:id="@+id/cardContainer"
-            android:layout_width="412dp"
-            android:layout_height="527dp"
-            android:layout_weight="1" android:layout_marginBottom="148dp"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:clickable="true" app:srcCompat="@android:drawable/presence_video_online"
-            tools:layout_editor_absoluteY="563dp" tools:layout_editor_absoluteX="318dp"
-            android:id="@+id/floatingActionButton2"/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

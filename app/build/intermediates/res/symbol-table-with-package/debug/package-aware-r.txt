@@ -37,6 +37,9 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+attr SpinKitViewStyle
+attr SpinKit_Color
+attr SpinKit_Style
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -78,6 +81,7 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
+attr angle
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -257,6 +261,7 @@ attr fabCradleRoundedCornerRadius
 attr fabCradleVerticalOffset
 attr fabCustomSize
 attr fabSize
+attr fadeOutTime
 attr fastScrollEnabled
 attr fastScrollHorizontalThumbDrawable
 attr fastScrollHorizontalTrackDrawable
@@ -276,6 +281,7 @@ attr fontStyle
 attr fontVariationSettings
 attr fontWeight
 attr foregroundInsidePadding
+attr fps
 attr gapBetweenBars
 attr goIcon
 attr headerLayout
@@ -383,6 +389,7 @@ attr layout_keyline
 attr layout_optimizationLevel
 attr layout_scrollFlags
 attr layout_scrollInterpolator
+attr lifeTime
 attr liftOnScroll
 attr lineHeight
 attr lineSpacing
@@ -415,8 +422,10 @@ attr navigationContentDescription
 attr navigationIcon
 attr navigationMode
 attr navigationViewStyle
+attr numParticles
 attr numericModifiers
 attr orientation
+attr orientationMode
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -473,6 +482,7 @@ attr spinnerStyle
 attr splitTrack
 attr srcCompat
 attr stackFromEnd
+attr startingWeather
 attr state_above_anchor
 attr state_collapsed
 attr state_collapsible
@@ -669,6 +679,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -813,6 +824,7 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen big_confetti_size
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -823,6 +835,12 @@ dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
+dimen confetti_default_elevation
+dimen default_confetti_size
+dimen default_explosion_radius
+dimen default_velocity_fast
+dimen default_velocity_normal
+dimen default_velocity_slow
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1055,10 +1073,12 @@ drawable button_negative_background
 drawable button_negative_background_ripple
 drawable button_positive_background
 drawable button_positive_background_ripple
+drawable button_shape
 drawable camera
 drawable card_bg
 drawable card_scatter
 drawable cats
+drawable circular_progress_bar
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1066,7 +1086,12 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dislike
+drawable dot_focused
+drawable dot_normal
+drawable dot_selector
 drawable heart
+drawable ic_audio
+drawable ic_camera
 drawable ic_close
 drawable ic_launcher
 drawable ic_launcher_background
@@ -1076,6 +1101,7 @@ drawable ic_microphone
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_pot
 drawable like
 drawable microphone_background
 drawable microphone_background_ripple
@@ -1098,16 +1124,41 @@ drawable people
 drawable picture1
 drawable picture2
 drawable picture3
+drawable point1
+drawable point2
+drawable rain
 drawable ripple
+drawable shape
 drawable slideshow
+drawable snow
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id CTRL
+id ChasingDots
+id Circle
+id CubeGrid
+id DISABLE
+id DoubleBounce
+id ENABLE
 id FUNCTION
+id FadingCircle
+id FoldingCube
 id META
+id MultiplePulse
+id MultiplePulseRing
+id Pulse
+id PulseRing
+id RAIN
+id RotatingCircle
+id RotatingPlane
 id SHIFT
+id SNOW
+id SUN
 id SYM
+id ThreeBounce
+id WanderingCubes
+id Wave
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -1171,6 +1222,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_enter
+id btn_login
 id buttonPanel
 id camera
 id cardContainer
@@ -1218,7 +1271,6 @@ id fill_horizontal
 id fill_vertical
 id filled
 id fixed
-id floatingActionButton2
 id forever
 id ghost_view
 id global_container
@@ -1234,6 +1286,7 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id italic
@@ -1248,6 +1301,7 @@ id line3
 id linearLayout
 id listMode
 id list_item
+id ll
 id masked
 id message
 id microphone
@@ -1256,6 +1310,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id my_toolbar
 id navigation_header_container
 id negative
 id never
@@ -1276,9 +1331,11 @@ id parent_matrix
 id percent
 id pin
 id positive
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id recipe
 id right
 id right_icon
 id right_side
@@ -1359,6 +1416,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txt
 id unchecked
 id uniform
 id unlabeled
@@ -1368,6 +1426,8 @@ id view_offset_helper
 id visible
 id voiceInput
 id voicePermission
+id vp_guide
+id weather_view
 id withText
 id wrap
 id wrap_content
@@ -1442,6 +1502,12 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout guid_view1
+layout guid_view2
+layout guid_view3
+layout guid_view4
+layout guid_view5
+layout guide
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action
@@ -1461,6 +1527,14 @@ layout voice_permission
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap p1
+mipmap p2
+mipmap p3
+mipmap p4
+mipmap p5
+mipmap pic_guidepage_2
+mipmap pic_guidepage_3
+mipmap pic_guidepage_4
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1754,6 +1828,54 @@ style RtlOverlay_Widget_AppCompat_Search_DropDown_Text
 style RtlOverlay_Widget_AppCompat_SearchView_MagIcon
 style RtlUnderlay_Widget_AppCompat_ActionButton
 style RtlUnderlay_Widget_AppCompat_ActionButton_Overflow
+style SpinKitView
+style SpinKitView_ChasingDots
+style SpinKitView_Circle
+style SpinKitView_CubeGrid
+style SpinKitView_DoubleBounce
+style SpinKitView_FadingCircle
+style SpinKitView_FoldingCube
+style SpinKitView_Large
+style SpinKitView_Large_ChasingDots
+style SpinKitView_Large_Circle
+style SpinKitView_Large_CubeGrid
+style SpinKitView_Large_DoubleBounce
+style SpinKitView_Large_FadingCircle
+style SpinKitView_Large_FoldingCube
+style SpinKitView_Large_MultiplePulse
+style SpinKitView_Large_MultiplePulseRing
+style SpinKitView_Large_Pulse
+style SpinKitView_Large_PulseRing
+style SpinKitView_Large_RotatingCircle
+style SpinKitView_Large_RotatingPlane
+style SpinKitView_Large_ThreeBounce
+style SpinKitView_Large_WanderingCubes
+style SpinKitView_Large_Wave
+style SpinKitView_MultiplePulse
+style SpinKitView_MultiplePulseRing
+style SpinKitView_Pulse
+style SpinKitView_PulseRing
+style SpinKitView_RotatingCircle
+style SpinKitView_RotatingPlane
+style SpinKitView_Small
+style SpinKitView_Small_ChasingDots
+style SpinKitView_Small_Circle
+style SpinKitView_Small_CubeGrid
+style SpinKitView_Small_DoubleBounce
+style SpinKitView_Small_FadingCircle
+style SpinKitView_Small_FoldingCube
+style SpinKitView_Small_MultiplePulse
+style SpinKitView_Small_MultiplePulseRing
+style SpinKitView_Small_Pulse
+style SpinKitView_Small_PulseRing
+style SpinKitView_Small_RotatingCircle
+style SpinKitView_Small_RotatingPlane
+style SpinKitView_Small_ThreeBounce
+style SpinKitView_Small_WanderingCubes
+style SpinKitView_Small_Wave
+style SpinKitView_ThreeBounce
+style SpinKitView_WanderingCubes
+style SpinKitView_Wave
 style TextAppearance_AppCompat
 style TextAppearance_AppCompat_Body1
 style TextAppearance_AppCompat_Body2
@@ -2091,6 +2213,7 @@ styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
+styleable SpinKitView SpinKit_Color SpinKit_Style
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
@@ -2104,3 +2227,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+styleable WeatherView angle fadeOutTime fps lifeTime numParticles orientationMode startingWeather

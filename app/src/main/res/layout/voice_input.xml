@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -38,7 +38,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/close"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -60,6 +60,7 @@
     <TextView
             android:id="@+id/title"
             android:textSize="24sp"
+            android:textColor="#FFFFFF"
             app:layout_constraintVertical_bias="0.4"
             android:layout_width="0dp"
             app:layout_constraintBottom_toTopOf="@id/subtitle"
@@ -78,6 +79,8 @@
     <TextView
             android:id="@+id/subtitle"
             android:layout_width="0dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
             android:textAppearance="?attr/textAppearanceBody1"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
@@ -90,6 +93,7 @@
     <TextView
             android:id="@+id/suggestions"
             android:layout_width="0dp"
+            android:textColor="#FFFFFF"
             android:textSize="16sp"
             android:layout_height="0dp"
             android:ellipsize="end"
@@ -108,6 +112,7 @@
     <TextView
             android:id="@+id/hint"
             app:layout_constraintStart_toStartOf="parent"
+            android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintVertical_bias="0"
             android:gravity="center"
@@ -121,4 +126,4 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
